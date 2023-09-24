@@ -51,7 +51,7 @@ VOLUME ["/home/chrome"]
 
 WORKDIR /home/chrome
 
-EXPOSE 5900
+EXPOSE 443
 
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 
